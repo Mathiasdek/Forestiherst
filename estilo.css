@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+}
+
+body{ 
+    background: rgb(18, 48, 4);
+    font-family: 'Lato', sans-serif;
+    
+}
+
+h1{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+}
+p{
+    font-size: 25px;
+    color:black(0, 0, 0);
+}
+img{
+    border-radius:100 px;
+    transition: 170ms;
+
+}
+img:hover{
+    transform: scale(1.15);
+    cursor: pointer;    
+}
+.seccion4{
+    background: rgb(119, 0, 255);
+    text-align: right;
+
+
+
+}
+.seccion3{
+    background: rgb(68, 3, 57);
+    text-align: left;
+}
+
+.menu{
+    height: inherit;
+}
+
+ .header{
+        background: rgb(rgb(59, 2, 112) );
+        color: green;
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+ }
+.logo img{
+        width: 100px;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+
+.header li{
+            height: inherit;
+}
+.header a{
+        color: rgb(255, 230, 0);
+        text-decoration: none;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        padding: 0px 10px;
+}
+
+#Seccioncontacto{
+   
+    background-image:url('img/FondoBosque.jpg') ;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+   
+}
+
+.principal img{
+    width: 300px;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+h1 strong{
+    color: #99cc00;
+}
+
+.principal-boton{
+    width: 250px;
+    height: 40px;
+    background-color: #99cc00;
+    border-radius: 24px;
+    border: none ;
+    font-size: 20px;
+     cursor: pointer;
+     margin-top: 30px ;
+}
+
+.somos h2{
+    color: #99cc00;
+    margin-bottom: 10px;
+}
+
+.somos p{
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.somos{
+    text-align: center;
+    background-color: rgba(rgb(21, 1, 94));
+    padding: 50px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    
+}
+/*
+.padre{
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.hijo{
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+    border: 2px solid yellowgreen;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+.aplicar{
+    height: 500px;
+    background: white;
+    display: flex;
+    color: black;
+}
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+.aplicar-detalles img{
+    height: 90%;
+}
+
+.container1{
+    display: flex;
+    background: #99cc00;
+    padding: 20px;
+}
+
+.container2{
+    background: rgb(12, 155, 12);
+}
+
+.col1-container1{
+width: 400px;
+}
+
+.col2-container1{
+width: 200px;
+}
+
+.col3-container1{
+width: 300px;
+}
+
